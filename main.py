@@ -17,4 +17,19 @@ else:
     print("Это не палиндром.")
 
 
+# ✅ Задание 3: Найди сумму всех чисел в списке
+Sumalist=[3,76,9,212]
+total=0
+for i in list:
+   total+=i
+print("Сумма всех чисел:", total)
 
+#✅ Task 4: Count the number of vowels in a word
+
+word = input("Enter a word: ").lower()
+vowels = "aeiouAEIOU"
+count = 0
+for letter in word:
+    if letter in vowels:
+        count += 1
+print("Number of vowels:", count)
